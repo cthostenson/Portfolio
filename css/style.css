@@ -10,8 +10,47 @@ h1, h2, h3, h4, h5, h6, p {
     font-weight: 400;
 }
 
+.full-page {
+    height: 100vh;
+    width: 100vw;
+}
+
+.three-fourths-page {
+    height: 75vh;
+    width: 100vw;
+}
+
+.half-page {
+    height: 50vh;
+    width: 100vw;
+}
+
 h1 {
     font-size: 3rem;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.project-grid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.grid-item {
+    width: 100%;
+    height: 500px;
+}
+
+.grid-content {
+    border-left: 5px solid #fff;
+    height: 100%;
+    width: 100%;
 }
 
 .tagline {
@@ -23,8 +62,15 @@ h1 {
     padding-top: 38vh;
 }
 
+.leftBar {
+    padding-left: 30px;
+    border-left: 10px solid #fff;
+}
+
+.profile-img {
+    width: 75%;
+}
+
 .background-container {
-    height: 100vh;
-    width: 100vw;
     background: #0D0D0D;
 }
