@@ -14,8 +14,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/846547d137.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+<div class="sidebar">
+  <p>nav item 1</p>
+  <p>nav item 2</p>
+  <p>nav item 3</p>
+</div>
+
+<div>
+  <div class="btn nav-button">
+    <i class="fas fa-bars"></i>
+  </div>
+</div>
 
 <div class="background-container">
   <div class="container full-page">
@@ -29,13 +43,15 @@
     </div>
   </div>
 
-  <div class="container three-fourths-page pt-3">
+  <div class="container pt-3">
     <div class="row">
-      <div class="col-7 leftBar">
+      <div class="col-7">
         <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
+        <div class="p-4">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        </div>
       <div class="col-5">
         <img src="images/profile.jpg" alt="Profile picture of Carter Thostenson" class="profile-img float-right">
       </div>
@@ -44,11 +60,17 @@
 
   <div class="container pt-3">
     <div class="row">
-      <div class="col-12 leftBar">
+      <div class="col-12">
         <h2>Projects</h2>
       </div>
       <div class="col-12">
         <div class="project-grid">
+          <div class="grid-item p-3">
+            <div class="grid-content"></div>
+          </div>
+          <div class="grid-item p-3">
+            <div class="grid-content"></div>
+          </div>
           <div class="grid-item p-3">
             <div class="grid-content"></div>
           </div>
@@ -66,6 +88,22 @@
     </div>
   </div>
 
+  <div class="container calloutBlock p-4">
+    <div class="row bkg-light">
+      <div class="col-12">
+        <h2 class="no-border">Linkedin</h2>
+        <p>Connect with me on Linkedin!</p>
+        <a class="btn btn-outline">Connect</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      1
+    </div>
+  </footer>
+
 </div>
   <!-- jQuery CDN - Slim version (=without AJAX) -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -73,6 +111,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <!-- Bootstrap JS -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+  <!-- Local Scripts -->
+  <script src="js/scripts.js" type="application/javascript"></script>
 
 </body>
 </html>
